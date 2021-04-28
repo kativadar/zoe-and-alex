@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(assets/wedding-landing-background.png);
+}
+
+.program, .faq {
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png);
+  filter: invert(65%);
+}
+
+.cover {
+  background: url('assets/wedding-landing-cover.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+  background-color:;
+  height: calc(100vh - 50%)
+  weight: calc(100vw - 50%);
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-family: 'Mulish', sans-serif;
+}
+
+a {
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+}
