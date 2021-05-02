@@ -17,6 +17,11 @@ body {
   line-height: 150%;
 }
 
+.locations, .gifts, .contact, .program, .faq {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 footer, .tagline, .date {
   color: hsla(0,0%,100%,.9);
 }
@@ -183,7 +188,7 @@ img {
 @media (min-width: 768px) {
 
   .program-wrapper {
-    width: 40vw;
+    width: 20vw;
     margin: 0 auto;
   }
 
