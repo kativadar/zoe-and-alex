@@ -69,6 +69,7 @@ a:hover {
 
 .travel, .food, .other, .times {
   text-align: left;
+  padding: .6rem 1rem;
 }
 
 /* header */
@@ -106,6 +107,7 @@ a:hover {
   height: 0;
   width: 200px;
   border: 1px solid white;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
@@ -124,17 +126,9 @@ a:hover {
     width: 50vw;
   }
 
-}
-
-@media (min-width: 768px) {
-
   .tagline {
     text-transform: uppercase;
   }
-
-}
-
-@media (min-width: 768px) {
 
   .headline {
     font-size: 6rem;
